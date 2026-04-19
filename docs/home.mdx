@@ -1,12 +1,26 @@
 ---
-title: "Overview"
-description: "A simple, open format for giving agents new capabilities and expertise."
+title: "Agent Skills Overview"
+sidebarTitle: "Overview"
+description: "A standardized way to give AI agents new capabilities and expertise."
 ---
 
 import { clients } from '/snippets/clients.jsx';
 import { LogoCarousel } from '/snippets/LogoCarousel.jsx';
 
-Agent Skills are folders of instructions, scripts, and resources that agents can discover and use to do things more accurately and efficiently.
+## What are Agent Skills?
+
+Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
+
+At its core, a skill is a folder containing a `SKILL.md` file. This file includes metadata (`name` and `description`, at minimum) and instructions that tell an agent how to perform a specific task. Skills can also bundle scripts, reference materials, templates, and other resources.
+
+```
+my-skill/
+├── SKILL.md          # Required: metadata + instructions
+├── scripts/          # Optional: executable code
+├── references/       # Optional: documentation
+├── assets/           # Optional: templates, resources
+└── ...               # Any additional files or directories
+```
 
 ## Why Agent Skills?
 
