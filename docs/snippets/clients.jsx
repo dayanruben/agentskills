@@ -339,4 +339,12 @@ export const clients = [
     darkSrc: "/images/logos/tabnine/tabnine-logo-dark.svg",
     instructionsUrl: "https://docs.tabnine.com/main/getting-started/tabnine-cli/features/agent-skills",
   },
+  {
+    name: "Vita",
+    description: "Vita provides autonomous digital workers with virtual desktops to execute complex workflows. It learns your intent to automate end-to-end tasks like creating and posting engaging social media content.",
+    url: "https://www.vita-ai.net",
+    lightSrc: "/images/logos/vita/logo-horizontal-light.svg",
+    darkSrc: "/images/logos/vita/logo-horizontal-dark.svg",
+    instructionsUrl: "https://www.vita-ai.net/docs/features/agent-skills",
+  },
 ];
